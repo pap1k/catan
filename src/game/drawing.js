@@ -31,15 +31,34 @@ class Drawing {
     this.context.stroke()
   }
   drawHexImage(x, y, image, side = "lt") {
+    const sz = 50
     switch (side) {
       case "lt":
-        return this.context.drawImage(image, x - 50, y - 50, 50, 50)
+        return this.context.drawImage(image, x - sz, y - sz, sz, sz)
       case "lb":
-        return this.context.drawImage(image, x - 50, y, 50, 50)
+        return this.context.drawImage(image, x - sz, y, sz, sz)
       case "rt":
-        return this.context.drawImage(image, x, y, 50, 50)
+        return this.context.drawImage(image, x, y, sz, sz)
       case "rb":
-        return this.context.drawImage(image, x, y - 50, 50, 50)
+        return this.context.drawImage(image, x, y - sz, sz, sz)
+    }
+  }
+  drawHexRoad(x, y, image, side) {
+    const sz_h = 10,
+      sz_w = 10
+    switch (side) {
+      case "l":
+        return null
+      case "lt":
+        return null
+      case "rt":
+        return null
+      case "r":
+        return null
+      case "lb":
+        return null
+      case "rb":
+        return null
     }
   }
   clear() {
