@@ -1,0 +1,39 @@
+{
+  "FIELD_MODEL": [3, 4, 5, 4, 3],
+  "SIZE": {
+    "WIDTH": 1200,
+    "HEIGHT": 900
+  },
+  "FIELD": {
+    "HEX_SIZE": 70,
+    "POS_X": 250,
+    "POS_Y": 100
+  },
+  "CITY_TYPES": {
+    "Village": 1,
+    "City": 2,
+    "Capital": 3
+  },
+  "BIOMES": {
+    "Mountains": 1,
+    "Woods": 2,
+    "Desert": 3,
+    "Quarry": 4,
+    "Meadow": 5,
+    "Field": 6
+  },
+  "RESOURCE": {
+    "Rock": 1,
+    "Wood": 2,
+    "None": 3,
+    "Clay": 4,
+    "Sheep": 5,
+    "Hay": 6
+  },
+  "Good": {
+    "Coin": 1,
+    "None": 2,
+    "Paper": 3,
+    "Cloth": 4
+  }
+}
